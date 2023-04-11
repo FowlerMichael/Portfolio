@@ -1,0 +1,40 @@
+section {
+    height: 500px;
+    border: solid 1px red;
+    background-color: black;
+}
+
+.hero{
+    height: 100vh;
+    background-color: yellow;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 2rem;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+    color: white;
+}
+
+nav{
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+}
+
+ul li {
+    display: flex;
+    display: inline;
+    width: 200px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+
+footer {
+
+}
