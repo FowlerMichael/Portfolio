@@ -1,0 +1,11 @@
+section {
+    height: 500px;
+    background-color: black;
+    border:solid 1px yellow;
+}
+
+.hero {
+    height: 500px;
+    background-color: blue;
+    border:solid 1px red;
+}
