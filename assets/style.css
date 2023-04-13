@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 16px;
+}
+
 section {
     height: 500px;
     border: solid 1px red;
@@ -7,10 +14,20 @@ section {
 .hero{
     height: 100vh;
     background-color: yellow;
+    background-image: url("images/back-section1.png");
     font-size: 30px;
 }
 
+h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
 h2{
+    font-size: 2.5rem;
+}
+
+h3{
     font-size: 2rem;
     color: white;
 }
@@ -19,6 +36,7 @@ p {
     font-size: 1rem;
     color: white;
 }
+
 
 nav{
     display: flex;
@@ -30,11 +48,73 @@ ul li {
     display: flex;
     display: inline;
     width: 200px;
+    padding-right: 3px;
     padding-left: 8px;
     font-size: 20px;
 }
 
+/*card-p is the class for the project cards*/
+.card-p1{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    background-image:url("images/project 1.png"); 
+    background-size: cover;
+    border: solid 1px yellow;
+    background-color: white;
+}
+.card-p2{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    background-image:url("images/project-2.jpg");
+    background-size: cover;
+    border: solid 1px yellow;
+    background-color: white;
+}
+
+.card-p-text{
+    font-size: 1rem;
+    color: black;
+    padding-top: 180px;
+    text-align: center;
+}
+/*card-s is the class for the skills cards*/
+.card-s1{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    border: solid 1px red;
+    background-color: white;
+    background-image: url("images/logo html.png");
+    background-size: cover;
+}
+.card-s2{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    border: solid 1px red;
+    background-color: white;
+    background-image: url("images/logo css.png");
+    background-size: cover;
+}
+
+.project-cards, .skills-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.contact-links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 
 footer {
-
+    height: 250px;
+    border: solid 1px red;
+    background-color: black;
 }
