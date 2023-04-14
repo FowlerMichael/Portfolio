@@ -6,7 +6,7 @@ body{
 }
 
 section {
-    height: 500px;
+    height: 800px;
     border: solid 1px red;
     background-color: black;
 }
@@ -122,4 +122,17 @@ footer {
     height: 250px;
     border: solid 1px red;
     background-color: black;
+}
+@media (max-width: 760px) {
+    .hero {
+        height: 100px;
+        background-repeat: no-repeat;
+    }
+    .section {
+        height: 100px;
+    }
+    .project-cards, .skills-cards {
+        display: flex;
+        display: wrap;
+    }
 }
