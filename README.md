@@ -8,6 +8,10 @@ To view the website, simply open the index.html file in your web browser. You ca
 HTML.CSS
 
 # Photo
+<<<<<<< HEAD
+=======
+![image](https://user-images.githubusercontent.com/123891461/231922564-efd4b78e-2ecc-4d5d-9868-56bacfb1aa40.png)
+>>>>>>> 50f242ee4e7f85e98640cce7a19efc592ba49bf0
 
 
 ## Author
